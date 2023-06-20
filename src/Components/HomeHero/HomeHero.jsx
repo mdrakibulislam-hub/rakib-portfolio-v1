@@ -20,10 +20,10 @@ const lottieOptions = {
 
 const HomeHero = () => {
     return (
-        <div data-aos="fade-up" className='main-container flex justify-between items-center my-8'>
+        <div data-aos="fade-up" className='main-container flex flex-col md:flex-row justify-between items-center my-8'>
 
 
-            <div className='w-1/2 flex flex-col gap-3'>
+            <div className='md:w-1/2 flex flex-col gap-3'>
                 <h1 className='text-3xl text-white font-moulpali'>Hi I am_</h1>
                 <h1 className='text-6xl text-white font-moulpali'>Md Rakibul Islam</h1>
 
@@ -52,7 +52,7 @@ const HomeHero = () => {
                 </div>
             </div>
 
-            <div className='w-1/3 py-9'>
+            <div className='md:w-1/3 py-9'>
                 <Lottie options={lottieOptions}
                 />
             </div>

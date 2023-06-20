@@ -20,10 +20,10 @@ const ProjectsSection = () => {
                             <h3 className='font-moulpali text-3xl text-white'>Title: {name}</h3>
                             {/* <p className='text-white text-justify'>Overview: {overView}</p> */}
                             <p className='text-white'>Technologies: {technologies}</p>
-                            <div className='flex gap-2'>
-                                <a href={liveSite} target='blank'><button className='bg-mantel text-lg px-6 py-2 rounded-full font-moulpali text-white hover:shadow-xl max-w-fit'>Lite Site</button></a>
-                                <a href={clientCode} target='blank'><button className='border border-white  text-lg px-6 py-2 rounded-full font-moulpali text-white hover:shadow-xl max-w-fit'>Client Code</button></a>
-                                <a href={serverCode} target='blank'><button className='border border-white  text-lg px-6 py-2 rounded-full font-moulpali text-white hover:shadow-xl max-w-fit'>Server Code</button></a>
+                            <div className='flex flex-col lg:flex-row gap-2'>
+                                <a href={liveSite} target='blank'><button className='bg-mantel text-lg px-6 py-2 rounded-full font-moulpali text-white hover:shadow-xl w-full lg:max-w-fit'>Lite Site</button></a>
+                                <a href={clientCode} target='blank'><button className='border border-white  text-lg px-6 py-2 rounded-full font-moulpali text-white hover:shadow-xl w-full lg:max-w-fit'>Client Code</button></a>
+                                <a href={serverCode} target='blank'><button className='border border-white  text-lg px-6 py-2 rounded-full font-moulpali text-white hover:shadow-xl w-full lg:max-w-fit'>Server Code</button></a>
                             </div>
                         </div>
                     </div>)
