@@ -1,9 +1,11 @@
-
 import { tools } from '../../../public/data';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const ToolsSection = () => {
     return (
-        <div className='main-container pt-20 pb-12 flex flex-col gap-8'>
+        <div data-aos="fade-up" className='main-container pt-20 pb-12 flex flex-col gap-8'>
 
             <h1 className='font-moulpali text-4xl text-white'>Tools</h1>
             <div className='w-1/3 h-1 bg-mantel'></div>

@@ -1,9 +1,13 @@
 import React from 'react';
 import rakibImage from '../../assets/rakib-image.webp';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 
 const About = () => {
     return (
-        <div className='main-container flex gap-12 items-center' id='about'>
+        <div data-aos="fade-up" className='main-container flex gap-12 items-center' id='about'>
             <figure className='w-2/6'><img className='rounded-full  shadow-xl' src={rakibImage} alt="" /></figure>
             <div className='flex flex-col gap-6'>
                 <h1 className='font-moulpali text-4xl text-white'>About Myself</h1>
