@@ -11,7 +11,7 @@ const SkillsSection = () => {
             <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-6'>
                 {
                     skills.map(({ name, image }) => <div key={name} className='flex flex-col justify-center gap-4'>
-                        <figure className='mx-auto'><img src={image} alt="" className='hover:drop-shadow-2xl' /></figure>
+                        <figure className='mx-auto'><img src={image} alt="" className='hover:drop-shadow-2xl hover:scale-105 transition-all ease-in' /></figure>
                         <h3 className='font-moulpali text-xl text-white text-center'>{name}</h3>
                     </div>)
                 }
