@@ -200,7 +200,7 @@ export const projects = [
         image: 'https://i.ibb.co/N1MQ153/lingoquest.png',
         overView: 'A dynamic website for language enthusiasts to learn and gain skills in new languages. This site contains various languages courses, students can create an account and can get enrolled in the classes. The authentication system has been implemented using Firebase, user can create a new account, log in, for can resetting password there is also a forget password option. User has 3 different roles "USER", "INSTRUCTOR" and "ADMIN" role, after registering an account the admin can make any user instructor. A dashboard has been created, for three user roles dashboard has different dynamic options. The backend has been created with node.js express.js MongoDB and for server security, JWT token has been used.',
         technologies: 'React.js, react router, firebase, tailwind, daisyUI, AOS, Express.js, node.js, MongoDB, JWT, Stripe',
-        liveSite: 'https://lingoquest-49cdf.web.app/',
+        liveSite: 'https://lingoquest-client.vercel.app/',
         clientCode: 'https://github.com/mdrakibulislam-hub/lingoquest-client',
         serverCode: 'https://github.com/mdrakibulislam-hub/lingoquest-server'
     },

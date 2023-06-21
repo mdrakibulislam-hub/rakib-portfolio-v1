@@ -54,10 +54,10 @@ const ContactSection = () => {
                 <div className='flex flex-col gap-4'>
                     <h1 className='font-moulpali text-4xl text-white'>Send me message directly from here</h1>
                     <form ref={form} onSubmit={sendEmail} action="" className='flex flex-col gap-4'>
-                        <input className='outline-none w-full p-4 rounded-2xl bg-[#5a5a5a] text-white' type="text" name="user_name" id="" placeholder='Please enter your name here' />
-                        <input className='outline-none w-full p-4 rounded-2xl bg-[#5a5a5a] text-white' type="email" name="user_email" id="" placeholder='Please enter your email here' />
-                        <input className='outline-none w-full p-4 rounded-2xl bg-[#5a5a5a] text-white' type="text" name="subject" id="" placeholder='Please enter subjet here' />
-                        <textarea className='outline-none w-full p-4 rounded-2xl bg-[#5a5a5a] text-white' placeholder='Enter your message here...' name="message" id="" cols="30" rows="3"></textarea>
+                        <input className='outline-none w-full p-4 rounded-2xl bg-[#5a5a5a] text-white focus:shadow-xl' type="text" name="user_name" id="" placeholder='Please enter your name here' />
+                        <input className='outline-none w-full p-4 rounded-2xl bg-[#5a5a5a] text-white focus:shadow-xl' type="email" name="user_email" id="" placeholder='Please enter your email here' />
+                        <input className='outline-none w-full p-4 rounded-2xl bg-[#5a5a5a] text-white focus:shadow-xl' type="text" name="subject" id="" placeholder='Please enter subjet here' />
+                        <textarea className='outline-none w-full p-4 rounded-2xl bg-[#5a5a5a] text-white focus:shadow-xl' placeholder='Enter your message here...' name="message" id="" cols="30" rows="3"></textarea>
                         <button type='submit' className='bg-mantel text-xl px-6 py-2 rounded-full font-moulpali text-white hover:shadow-xl max-w-fit'>Send Message</button>
                     </form>
                 </div>
