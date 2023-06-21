@@ -20,11 +20,11 @@ const Navbar = () => {
     }
 
     return (
-        <div className='bg-mantel shadow-xl '>
+        <div className='bg-mantel shadow-xl sticky top-0 z-10'>
 
 
             <nav className='main-container flex justify-between items-center py-4'>
-                <Link to={"/"}><h1 className='font-moulpali text-3xl text-white'>rakib.pro</h1></Link>
+                <Link to={"/"}><h1 className='font-moulpali text-3xl text-white'>Md Rakibul Islam</h1></Link>
 
 
                 <ul className='hidden md:flex items-center gap-4 text-white'>{navOptions}</ul>
